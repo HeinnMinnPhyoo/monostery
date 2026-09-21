@@ -81,20 +81,9 @@ export function HomePage({ posts, upcomingEvents }: HomePageProps) {
           )}
         </section>
 
-        <section className="section details">
-          <article className="card">
-            <h3>{t("addressTitle")}</h3>
-            <p>{t("addressText")}</p>
-          </article>
-          <article className="card">
-            <h3>{t("scheduleTitle")}</h3>
-            <ul>
-              <li>{t("schedule1")}</li>
-              <li>{t("schedule2")}</li>
-              <li>{t("schedule3")}</li>
-              <li>{t("schedule4")}</li>
-            </ul>
-          </article>
+        <section className="section card">
+          <h3>{t("addressTitle")}</h3>
+          <p>{t("addressText")}</p>
         </section>
 
         <section className="section" id="gallery">

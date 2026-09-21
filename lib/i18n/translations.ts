@@ -13,11 +13,6 @@ export const translations: Record<Lang, Record<string, string>> = {
       "အောင်သုခ မြန်မာကျောင်းသည် သာသနာရေးလုပ်ငန်းများ၊ ဘာသာရေးပွဲများ၊ လူငယ်ပညာပေးအစီအစဉ်များကို စဉ်ဆက်မပြတ် ဆောင်ရွက်နေသော ဘုန်းတော်ကြီးကျောင်းတစ်ခုဖြစ်ပါသည်။",
     addressTitle: "လိပ်စာ",
     addressText: "မွန်ပြည်နယ် ချောင်းဆုံမြို့နယ် ဘိုးနတ်ကျေးရွာ",
-    scheduleTitle: "နေ့စဉ်အစီအစဉ် (ဥပမာ)",
-    schedule1: "နံနက် ၅:၃၀ - ပဌာန်းပူဇော်ခြင်း",
-    schedule2: "နံနက် ၈:၀၀ - သင်တန်း/အဘိဓမ္မာ လေ့လာခြင်း",
-    schedule3: "နေ့လယ် ၁:၀၀ - တရားထိုင်ခြင်း",
-    schedule4: "ညနေ ၆:၃၀ - ဓမ္မသင်တန်းနှင့် ပရိတ်တရားနာ",
     galleryTitle: "အမှတ်တရ ပုံရိပ်များ",
     contactTitle: "ဆက်သွယ်ရန်",
     contactText:
@@ -53,11 +48,6 @@ export const translations: Record<Lang, Record<string, string>> = {
       "Aung Thukha Myanmar Monastery continuously carries out religious services, community events, and youth education programs.",
     addressTitle: "Address",
     addressText: "Bone Nat Village, Chaungzon Township, Mon State",
-    scheduleTitle: "Daily Schedule (Sample)",
-    schedule1: "5:30 AM - Morning Chanting",
-    schedule2: "8:00 AM - Study Session / Abhidhamma",
-    schedule3: "1:00 PM - Meditation",
-    schedule4: "6:30 PM - Dhamma Class and Paritta Chanting",
     galleryTitle: "Photo Gallery",
     contactTitle: "Contact",
     contactText:

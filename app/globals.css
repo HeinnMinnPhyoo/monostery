@@ -200,17 +200,6 @@ main.page-main,
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
 }
 
-.details {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 16px;
-}
-
-.details ul {
-  margin: 0;
-  padding-left: 20px;
-}
-
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
