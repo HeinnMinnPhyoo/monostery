@@ -10,12 +10,13 @@ pipeline {
             steps { sh 'node -v && npm -v && npm ci' }
         }
         stage('Build') {
-            steps {
-                withCredentials([file(credentialsId: 'monostery-env', variable: 'ENV_FILE')]) {
-                    sh 'cp "$ENV_FILE" .env.production && npm run build'
-                }
-            }
+    steps {
+        withCredentials([file(credentialsId: 'monostery-env', variable: 'ENV_FILE')]) {
+            sh 'install -m 600 "$ENV_FILE" .env.production'
+            sh 'npm run build'
         }
+    }
+}
         stage('Deploy') {
             steps {
                 sh '''
