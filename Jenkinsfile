@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    triggers { githubPush() }
     options { timeout(time: 20, unit: 'MINUTES') }
 
     stages {
